@@ -1,0 +1,684 @@
+VOYAGER 1 A Detailed Text-Only Mission Reference
+
+INTRODUCTION
+
+Voyager 1 is a NASA space probe launched on September 5, 1977, as part of the Voyager program. Its original purpose was to study the outer
+Solar System, especially Jupiter and Saturn. Its extended mission is to study the outer heliosphere and the interstellar medium beyond the Sun’s
+heliosphere.
+
+Voyager 1 is the most distant human-made object from Earth. It communicates with Earth through NASA’s Deep Space Network (DSN), which
+receives scientific and engineering data from the spacecraft and sends commands to it. Because of the enormous distance involved, radio signals
+take many hours to travel between the spacecraft and Earth.
+
+Voyager 1 was launched 16 days after its twin spacecraft, Voyager 2.Despite launching later, Voyager 1 followed a shorter trajectory and
+reached Jupiter and Saturn first. It conducted close flybys of Jupiter, Saturn, and Saturn’s largest moon, Titan. The mission returned detailed
+information about the planets, their moons, rings, magnetic fields,atmospheres, and surrounding space.
+
+Voyager 1 crossed the heliopause on August 25, 2012, becoming the first spacecraft to enter interstellar space. This was a major milestone in
+the exploration of the space environment beyond the influence of the solar wind. The spacecraft continues to travel outward, although its
+available electrical power is steadily decreasing and its instruments have been switched off gradually to extend the mission.
+
+MISSION SUMMARY
+
+Mission name: Voyager 1 Mission type: Outer planetary, heliosphere, and interstellar-medium exploration Operator: NASA / Jet Propulsion
+Laboratory COSPAR identification: 1977-084A Satellite Catalog Number: 10321 Spacecraft type: Mariner Jupiter-Saturn Manufacturer: Jet
+Propulsion Laboratory Launch mass: 815 kilograms Dry mass: 721.9
+kilograms Electrical power at launch: Approximately 470 watts Launch
+date: September 5, 1977 Launch time: 12:56:01 UTC Launch vehicle: Titan
+IIIE Launch site: Cape Canaveral Launch Complex 41, Florida, United
+States
+
+Important mission milestones: - Jupiter closest approach: March 5, 1979. - Saturn closest approach: November 12, 1980. - Titan closest
+approach: November 12, 1980. - Entry into the heliosheath: December 2004. - Crossing of the heliopause: August 25, 2012. - Official
+confirmation of interstellar-medium entry: September 12, 2013. - One-light-day distance from Earth: November 18, 2026, according to the
+mission chronology supplied in this reference.
+
+MISSION BACKGROUND
+
+The idea behind the Voyager missions developed from proposals in the 1960s for a Grand Tour of the outer planets. The alignment of the outer
+planets offered an opportunity for spacecraft to visit several planets using gravitational assists. A gravitational assist uses the gravity and
+orbital motion of a planet to change a spacecraft’s velocity and direction, reducing the amount of propellant needed.
+
+NASA began developing the mission during the early 1970s. Voyager 1 was initially planned as Mariner 11, part of the Mariner program. Budget
+reductions led to a narrower mission focused on Jupiter and Saturn. The spacecraft were initially called the Mariner Jupiter-Saturn probes.
+Their designs eventually became sufficiently different from earlier Mariner spacecraft that the mission was renamed Voyager.
+
+The two spacecraft were designed as a pair. Voyager 2 launched first, on August 20, 1977. Voyager 1 launched on September 5, 1977. Voyager 1 was
+placed on a trajectory that allowed it to reach Jupiter and Saturn sooner than Voyager 2.
+
+SPACECRAFT DESIGN AND COMPONENTS
+
+Voyager 1 was built by NASA’s Jet Propulsion Laboratory. Its main body is a decagonal prism, meaning that its central bus has ten sides. The
+bus contains the spacecraft’s electronics, computers, data-recording equipment, and many of its control systems.
+
+The spacecraft includes a high-gain antenna, scientific instruments, cameras, propulsion equipment, magnetometer booms, radio antennas, and
+three radioisotope thermoelectric generators. Many components were designed with redundant or backup systems because repair would be impossible once the spacecraft had travelled far from Earth.
+
+The spacecraft uses hydrazine thrusters to control its orientation.These thrusters do not propel Voyager 1 along its main interstellar
+trajectory in the way a launch rocket does. Instead, they make small adjustments that keep the spacecraft correctly oriented. In particular,
+they help keep the high-gain antenna pointed toward Earth so that radio communication can continue.
+
+The Attitude and Articulation Control Subsystem, commonly abbreviated AACS, manages the spacecraft’s orientation. It uses sensors, gyroscopes,
+and control systems to maintain the required pointing direction and to carry out commanded orientation changes.
+
+The spacecraft was equipped with 11 scientific instruments for studying planets, moons, magnetic fields, radiation, plasma, and other features
+of space. Several instruments have since been turned off because of reduced electrical power, while others are no longer functioning.
+
+COMMUNICATION SYSTEM
+
+Voyager 1 uses a high-gain Cassegrain dish antenna approximately 3.7 metres in diameter. The antenna is used to send scientific and
+engineering data to Earth and to receive commands from ground
+controllers.
+
+Communication takes place through NASA’s Deep Space Network. The network has large radio antennas at geographically separated locations, allowing
+NASA to maintain contact with distant spacecraft as Earth rotates.
+
+Voyager 1 normally transmits data using radio frequencies around 2.3 gigahertz or 8.4 gigahertz. Commands from Earth are transmitted at
+approximately 2.1 gigahertz. The spacecraft’s radio system was designed to work over distances extending far beyond the planets.
+
+The signal received on Earth is extremely weak because it spreads over an enormous distance. The Deep Space Network uses large antennas and
+sensitive receiving equipment to detect it. The data rate is very low compared with modern communication systems.
+
+Voyager 1 also has a digital tape recorder that was designed to store scientific data when immediate communication with Earth was not
+possible. The recorder could hold approximately 64 megabytes of data. Its use and operational status have changed as the mission has aged and
+power-saving measures have been introduced.
+
+At the distance described in the mission information for November 2026, a radio signal takes approximately one day to travel from Voyager 1 to
+Earth. This means that commands and responses cannot be exchanged in real time. Engineers must plan operations while accounting for the long
+communication delay.
+
+POWER SYSTEM
+
+Voyager 1 is powered by three radioisotope thermoelectric generators, usually abbreviated RTGs. These generators convert heat produced by the
+radioactive decay of plutonium-238 into electrical energy.
+
+Each generator contains plutonium-238 oxide fuel. At launch, the three RTGs together produced approximately 470 watts of electrical power. The
+remaining heat is released into the surrounding environment.
+
+RTGs are useful for deep-space missions because they do not depend on sunlight. Solar panels would become increasingly ineffective as a
+spacecraft travels far from the Sun. Radioisotope power systems can continue producing electricity in the darkness of deep space.
+
+The electrical output of the RTGs gradually declines for two main reasons. First, plutonium-238 decays over time. Its half-life is
+approximately 87.7 years. Second, the thermocouples that convert heat into electricity gradually degrade.
+
+As electrical power decreases, mission controllers must decide which heaters, systems, and scientific instruments are most important. They
+have progressively switched off equipment to preserve enough power for communication and the most valuable remaining scientific measurements.
+
+The spacecraft’s power limitations are a central factor determining how long Voyager 1 can continue returning data. Estimates have suggested
+that some engineering data may remain possible into the 2030s, although the exact end of operations depends on the spacecraft’s condition and
+the power-management decisions made by the mission team.
+
+ONBOARD COMPUTERS
+
+Voyager 1 uses several onboard computer systems. These systems were designed in the 1970s and have extremely limited memory and processing
+capacity compared with modern computers.
+
+The Computer Command Subsystem, or CCS, controls command decoding, fault detection, fault correction, antenna-pointing routines, and spacecraft
+sequencing. It contains fixed programs that carry out essential operations.
+
+The Flight Data Subsystem, or FDS, collects information from scientific instruments and spacecraft systems, organizes the information, and
+prepares it for transmission to Earth. It is a critical part of the data-return process.
+
+The Attitude and Articulation Control Subsystem, or AACS, controls spacecraft orientation. It helps maintain antenna pointing, manages
+attitude changes, and controls the orientation of the spacecraft.
+
+The cameras were not fully autonomous. Their operation was controlled through imaging instructions stored in the spacecraft’s computer
+systems. This differs from many modern space probes, which can operate cameras and other instruments with much greater autonomy.
+
+SCIENTIFIC INSTRUMENTS
+
+Voyager 1 carried instruments designed to investigate planetary atmospheres, surfaces, magnetic fields, radiation, charged particles,
+and plasma. Many of these instruments completed their planned observations during the Jupiter and Saturn encounters. A smaller group
+continued operating during the extended mission.
+
+1.  Imaging Science System (ISS)
+
+The Imaging Science System included a narrow-angle camera and a wide-angle camera. It was used to obtain images of Jupiter, Saturn,
+their moons, and other objects along the spacecraft’s trajectory. The cameras provided detailed observations of planetary clouds, rings,
+surface features, and geological activity.
+
+The cameras were switched off in February 1990 to conserve electrical power and spacecraft resources. They are not expected to be restarted.
+The camera software and the ground-based systems required to process the original images are no longer readily available for routine use.
+
+2.  Radio Science System (RSS)
+
+The Radio Science System used the spacecraft’s telecommunications system
+to study the physical properties of planets and satellites. By analysing
+changes in the radio signal as it passed through an atmosphere or near a
+body, scientists could investigate atmospheric structure, ionospheres,
+gravity fields, masses, and other properties.
+
+Radio science observations also helped determine properties of Saturn’s
+rings, including their dimensions and the distribution of material
+within them. The system is no longer operating as part of the active
+science mission.
+
+3.  Infrared Interferometer Spectrometer and Radiometer (IRIS)
+
+The infrared instrument investigated the energy balance and atmospheric
+composition of planets and satellites. It measured temperature profiles
+and helped scientists study the composition and thermal properties of
+planetary atmospheres and ring particles.
+
+The instrument contributed to the study of Jupiter and Saturn and their
+systems. It was switched off in June 1998 to conserve power.
+
+4.  Ultraviolet Spectrometer (UVS)
+
+The ultraviolet spectrometer measured ultraviolet radiation and was used
+to investigate atmospheric properties. It helped scientists study
+planetary atmospheres and emissions from the space environment.
+
+The instrument was switched off in April 2016 as part of the mission’s
+power-saving strategy.
+
+5.  Triaxial Fluxgate Magnetometer (MAG)
+
+The magnetometer measures magnetic fields. It was designed to
+investigate the magnetic fields of Jupiter and Saturn, the interaction
+between the solar wind and planetary magnetospheres, and the magnetic
+field of interplanetary and interstellar space.
+
+The magnetometer uses sensors mounted away from the main spacecraft body
+to reduce interference from the spacecraft’s own magnetic field. As of
+the mission status described in this reference, the magnetometer remains
+operational.
+
+6.  Plasma Spectrometer (PLS)
+
+The plasma spectrometer investigated the microscopic properties of
+plasma ions and measured electrons over an energy range of approximately
+5 electronvolts to 1 kiloelectronvolt.
+
+Its measurements were intended to help scientists understand charged
+particles in planetary and interplanetary environments. The instrument’s
+performance degraded, and it was switched off in February 2007.
+
+7.  Low-Energy Charged Particle Instrument (LECP)
+
+The Low-Energy Charged Particle instrument measured the energy and
+angular distributions of ions and electrons. It also investigated the
+composition of energetic particles.
+
+Its observations helped scientists understand the changing particle
+environment as Voyager 1 moved toward and beyond the heliopause. The
+instrument was switched off in April 2026 to conserve power. The mission
+information indicates that it may be possible to reactivate it,
+depending on spacecraft resources and operational decisions.
+
+8.  Cosmic Ray System (CRS)
+
+The Cosmic Ray System studied the origin, acceleration, and behaviour of
+cosmic rays. It investigated energetic particles from outside the Solar
+System as well as particles associated with the Sun and planetary
+environments.
+
+Its measurements were important in studying the transition from the
+heliosphere to interstellar space. The instrument was switched off in
+February 2025 to conserve power.
+
+9.  Planetary Radio Astronomy Investigation (PRA)
+
+The Planetary Radio Astronomy instrument used a sweep-frequency radio
+receiver to study radio emissions from Jupiter and Saturn. These
+observations provided information about radio emissions associated with
+planetary magnetospheres.
+
+The instrument was switched off in January 2008.
+
+10. Photopolarimeter System (PPS)
+
+The photopolarimeter used a telescope and polarizer to investigate
+surface texture, surface composition, and atmospheric scattering
+properties. It was used during the planetary encounters, but it is no
+longer functioning.
+
+11. Plasma Wave Subsystem (PWS)
+
+The Plasma Wave Subsystem measures plasma waves and provides information about electron density and wave-particle interactions. It can help
+scientists investigate the plasma environment even when direct measurements from the plasma spectrometer are unavailable.
+
+The subsystem has been particularly valuable during the extended interstellar mission. As of the status described in this reference, it
+remains operational.
+
+MISSION PROFILE AND MAJOR EVENTS
+
+Voyager 1’s mission can be divided into its launch and cruise phase, the Jupiter encounter, the Saturn encounter, and the extended mission beyond
+Saturn.
+
+LAUNCH AND EARLY TRAJECTORY
+
+Voyager 1 launched on September 5, 1977, from Launch Complex 41 at Cape Canaveral Air Force Station in Florida. It was carried into space by a
+Titan IIIE launch vehicle. Voyager 2 had launched earlier, on August 20, 1977. Although Voyager 1 launched later, it was placed on a faster trajectory and overtook
+Voyager 2 in December 1977.
+
+The launch of Voyager 1 nearly failed. The Titan rocket’s second stage shut down prematurely, leaving a substantial amount of propellant unburned. The Centaur upper stage detected the shortfall and extended
+its burn to provide the additional velocity required for the spacecraft’s trajectory.
+
+The Centaur stage came close to exhausting its propellant. The launch
+succeeded because its onboard computers compensated for the earlier
+stage’s performance. A similar problem during Voyager 2’s launch could
+have had a different outcome because the planetary alignment and
+trajectory requirements were less favourable.
+
+Voyager 1 entered the asteroid belt in December 1977 and exited it in
+September 1978. It then continued toward Jupiter.
+
+JUPITER ENCOUNTER
+
+Voyager 1 began its detailed observations of Jupiter in January 1979. Its closest approach occurred on March 5, 1979, when it passed
+approximately 349,000 kilometres from Jupiter’s centre. The spacecraft conducted observations of Jupiter’s atmosphere, cloud systems, magnetic field, radiation belts, rings, and moons. Its close
+approach allowed it to obtain high-resolution images and measurements over a short period around closest approach.
+The observations of Jupiter were informed by the earlier Pioneer 10 mission. Pioneer 10 had revealed that Jupiter’s radiation environment
+was extremely intense. Engineers used this information to improve Voyager’s radiation protection. Additional shielding was applied to some
+spacecraft cables before launch.
+One of the most important discoveries was active volcanic activity on Io, one of Jupiter’s moons. Voyager 1 observed volcanic eruptions,
+demonstrating for the first time that active volcanoes existed on a world beyond Earth.
+Io’s volcanic activity affects the wider Jovian system. Material ejected from Io, including sulfur, oxygen, and sodium, contributes to the plasma
+environment around Jupiter. Some of this material is ionized and becomes part of the planet’s magnetosphere.
+Voyager 1 also studied Jupiter’s Great Red Spot, a giant atmospheric storm. Images revealed complex cloud patterns and atmospheric motions.
+The spacecraft observed the planet’s moons, including Europa, Ganymede, Callisto, and Amalthea.
+Voyager 1 discovered two previously unknown moons of Jupiter: Metis and Thebe. Metis orbits just outside Jupiter’s main ring, while Thebe lies
+between the orbits of Amalthea and Io. The spacecraft encountered extremely high radiation levels while passing close to Jupiter. The radiation dose was far beyond what would be safe for a human being. The environment caused degradation in some high-resolution images, particularly during observations of Io and Ganymede.
+
+The Jupiter encounter demonstrated the scientific value of close planetary flybys. It also showed that moons once assumed to be
+relatively inactive could have complex geology and dynamic environments.
+
+SATURN ENCOUNTER
+
+After leaving Jupiter, Voyager 1 continued toward Saturn. It began its Saturn observation phase in August 1980 and reached closest approach on
+November 12, 1980. The spacecraft passed approximately 124,000 kilometres above Saturn’s cloud tops. It studied Saturn’s atmosphere, rings, magnetic environment,
+and moons. Voyager 1 found that Saturn’s upper atmosphere contained a lower proportion of helium than expected. Measurements indicated that helium
+made up approximately seven percent of the volume of the upper atmosphere, with most of the remainder consisting of hydrogen.
+
+One possible explanation is that helium slowly sinks deeper into Saturn’s atmosphere. This process could help explain why Saturn emits
+more energy than it receives from sunlight. The spacecraft measured strong winds in Saturn’s atmosphere. Near the equator, wind speeds were approximately 500 metres per second, with
+winds generally blowing eastward. Voyager 1 also observed ultraviolet emissions resembling auroras. These emissions were detected at mid-latitudes and polar latitudes. The
+observations raised questions about the processes responsible for Saturn’s atmospheric emissions and the movement of charged particles.
+The spacecraft measured Saturn’s rotation period at approximately 10 hours, 39 minutes, and 24 seconds.
+
+SATURN’S RINGS AND MOONS
+
+Voyager 1 revealed complex structures in Saturn’s rings. It observed narrow ring features, braided structures, and details that could not be
+seen clearly from Earth at the time.
+The spacecraft studied several Saturnian moons, including Titan, Tethys, Mimas, Enceladus, Dione, Rhea, and Hyperion. These observations helped
+establish that Saturn’s moons have diverse surfaces and geological histories.
+Titan was a particularly important target. It is Saturn’s largest moon and was already known to possess a substantial atmosphere. Scientists
+wanted to determine the atmosphere’s composition, density, and pressure.
+The Titan flyby occurred on November 12, 1980. Voyager 1 passed within approximately 6,490 kilometres of Titan. The spacecraft travelled behind
+Titan as seen from Earth and the Sun, allowing scientists to use changes in sunlight and radio signals to investigate the atmosphere.
+Titan’s thick haze prevented Voyager 1’s cameras from seeing the surface clearly. However, measurements of the atmosphere provided important
+information about its composition, temperature, and pressure. The results encouraged speculation that liquid hydrocarbons could exist on
+Titan’s surface.
+The decision to study Titan determined the spacecraft’s trajectory after Saturn. Voyager 1 passed below Saturn’s south pole and left the plane of
+the ecliptic. This ended its planned planetary exploration route.NASA had to choose between a close investigation of Titan and a trajectory that could continue toward other outer planets. Titan’s
+substantial atmosphere made it a high-priority scientific target. Voyager 1 therefore did not continue to Uranus or Neptune. 
+If Voyager 1 had failed to complete the Titan observations, Voyager 2’s trajectory could have been changed to include a Titan flyby. Such a
+change would have prevented Voyager 2 from completing its later visits to Uranus and Neptune.
+
+THE EXTENDED MISSION
+
+After the Saturn encounter in November 1980, Voyager 1 began its extended mission. Its focus shifted from close planetary observations to
+the outer Solar System, the heliosphere, and eventually the interstellar medium. On February 14, 1990, Voyager 1 took the images used to create the Solar System Family Portrait. This collection included a view of Earth from a
+distance of approximately six billion kilometres. The image became known as the Pale Blue Dot.
+In the Pale Blue Dot image, Earth appears as a tiny point against the darkness of space. The image became a widely recognized reminder of
+Earth’s small scale in the context of the Solar System. After completing the Family Portrait, Voyager 1’s cameras were switched off to conserve power. They have not been used for routine observations
+since then. Restarting them would be difficult because the camera software and some of the ground systems required to process the images
+are no longer available.
+
+In February 1998, Voyager 1 passed Pioneer 10 and became the most distant spacecraft from the Sun. It has continued to move outward at a
+speed of roughly 17 kilometres per second relative to the Sun.
+
+THE HELIOSPHERE AND ITS BOUNDARIES
+
+The heliosphere is the enormous region of space influenced by the solar wind and the Sun’s magnetic field. The solar wind is a continuous stream
+of charged particles flowing outward from the Sun. The heliosphere forms a protective region around the Solar System. As the solar wind travels outward, it eventually encounters the
+interstellar medium, the material and magnetic environment between stars.
+Several boundaries help describe the transition from the Sun’s environment to interstellar space. The termination shock is the region where the solar wind slows from supersonic to subsonic speeds as it encounters increasing pressure from
+the surrounding interstellar medium. Beyond the termination shock is the heliosheath. In this region, the solar wind is slower, hotter, and more disturbed than it is closer to
+the Sun.
+The heliopause is the outer boundary of the heliosphere. It marks the region where the outward pressure of the solar wind is balanced by the
+pressure of the interstellar medium. Crossing the heliopause means entering the interstellar medium.
+
+TERMINATION SHOCK
+
+Voyager 1 crossed the termination shock in December 2004, at a distance of approximately 94 astronomical units from the Sun. An astronomical
+unit, or AU, is the average distance between Earth and the Sun. There was initially disagreement about the exact timing of the crossing.
+Voyager 1’s solar-wind detector had stopped functioning in 1990, so scientists had to infer the crossing from measurements made by other
+instruments. Later evidence supported the conclusion that the spacecraft crossed the termination shock in late 2004. The event marked its entry into the
+heliosheath.
+
+HELIOSHEATH
+
+Voyager 1 continued through the heliosheath after crossing the
+termination shock. Measurements showed that the outward flow of solar
+wind became increasingly weak.
+
+In December 2010, scientists reported that Voyager 1 had passed beyond
+the region where the outward radial flow of the solar wind could be
+detected. The solar wind in this region appeared to be redirected
+sideways by the pressure of the interstellar medium.
+
+The spacecraft was approximately 116 AU from the Sun at that time. In
+2011, engineers commanded Voyager 1 to rotate so that its instruments
+could measure the direction of the solar-wind flow. The spacecraft
+completed the maneuver and then returned to its normal orientation.
+
+The maneuver demonstrated that Voyager 1 could still change its
+orientation despite having been in space for more than three decades.
+
+Scientists also detected ultraviolet radiation associated with the Milky
+Way. This was significant because the Sun’s own emissions had made it
+difficult to detect such radiation from within the Solar System.
+
+In December 2011, NASA described Voyager 1 as being in a new region near
+the outer edge of the heliosphere. Charged particles from the Sun were
+slowing and turning inward, while the magnetic field was stronger than
+expected. Scientists referred to this region as a stagnation region or,
+informally, a cosmic purgatory.
+
+HELIOPAUSE CROSSING
+
+In 2012, Voyager 1 began detecting major changes in the charged-particle environment. The spacecraft recorded an increase in high-energy
+particles believed to originate outside the Solar System and a decrease in lower-energy particles associated with the Sun. These changes suggested that Voyager 1 was approaching or had crossed
+the heliopause. On August 25, 2012, Voyager 1 crossed the heliopause at a distance of approximately 121 AU from the Sun. It became the first spacecraft to enter interstellar space.
+The crossing was not confirmed immediately. Scientists examined particle measurements and other evidence before making the announcement. The
+magnetic-field direction did not change as some models had predicted, leading to debate about whether the spacecraft had crossed the boundary.
+
+In 2013, measurements of plasma oscillations provided strong that Voyager 1 was in the interstellar medium. The frequency of these
+oscillations allowed scientists to estimate the electron density around the spacecraft. The measured density was consistent with interstellar
+plasma rather than the plasma normally found inside the heliosphere. On September 12, 2013, NASA officially confirmed that Voyager 1 had
+entered interstellar space. The generally accepted crossing date remained August 25, 2012.
+
+INTERSTELLAR MEDIUM
+
+The interstellar medium is the matter and energy that exist in the space between stars. It contains gas, plasma, dust, energetic particles, and
+magnetic fields. Voyager 1 is providing direct measurements of this environment from a location far beyond the heliopause. Its instruments have helped
+scientists investigate the density of plasma, magnetic fields, cosmic rays, and waves in interstellar space. Because the spacecraft’s plasma spectrometer stopped functioning decades earlier, scientists have used the Plasma Wave Subsystem to infer plasma
+density from oscillations in the surrounding plasma.
+
+In September 2013, NASA released audio representations of plasma-wave measurements from interstellar space. These recordings are not ordinary
+sound travelling through a vacuum. They are scientific measurements converted into audio that humans can hear.
+
+In October 2020, researchers reported an unexpected increase in the density of material in the space beyond the Solar System, based on
+observations from Voyager 1 and Voyager 2. The finding suggested that a density gradient may be a large-scale feature of the very local
+interstellar medium.In May 2021, NASA reported continuous measurements of material density in interstellar space and the detection of persistent interstellar
+plasma-wave activity.
+
+DISTANCE, SPEED, AND DIRECTION
+
+Voyager 1 is travelling outward from the Sun at approximately 17 kilometres per second, although exact values depend on the reference
+frame used. Its speed relative to the Sun is approximately 61,000 kilometres per hour. At this speed, it travels several astronomical units per year.
+Voyager 1 is moving in the general direction of the constellation Ophiuchus as viewed from Earth. It is not travelling toward a particular
+star. A light-year is the distance light travels in one year. Even though Voyager 1 is moving much faster than any ordinary human-made vehicle, it
+would take many thousands of years to travel one light-year.
+
+In November 2026, the mission information states that Voyager 1 reached a distance of one light-day from Earth. One light-day is the distance
+light travels in 24 hours, approximately 25.9 billion kilometres or 16.1 billion miles. At that distance, a one-way radio communication delay is
+about 24 hours. The spacecraft’s enormous distance makes every command and response a long-duration operation. Engineers must account for the time taken for
+signals to travel between Earth and the probe.
+
+RECENT SPACECRAFT STATUS AND POWER MANAGEMENT
+
+Voyager 1’s electrical power continues to decline. The mission team has
+gradually turned off instruments and heaters to preserve enough power
+for the remaining science systems and communications equipment.
+
+As of the status described in this reference, the Plasma Wave Subsystem
+and magnetometer are identified as operational science instruments.
+Other instruments have been turned off, have degraded, or are no longer
+functioning.
+
+The Low-Energy Charged Particle instrument was switched off in April
+2026 to save power. The Cosmic Ray System had been switched off in
+February 2025.
+
+The spacecraft’s power-management plan is designed to extend the mission
+for as long as possible. The team must balance the scientific value of
+each instrument against the electrical power needed to operate it.
+
+The spacecraft may continue to return data for several more years, but
+the exact end of science operations is uncertain. Estimates for the
+final loss of science capability have varied, with projections extending
+into the late 2020s or 2030s.
+
+TRAJECTORY CORRECTION MANEUVERS AND THRUSTERS
+
+Voyager 1 uses small thrusters to control its orientation and keep its
+antenna pointed toward Earth. Over decades, some thruster lines have
+become clogged by material deposits.
+
+In November 2017, engineers successfully fired the trajectory correction
+maneuver thrusters for the first time since 1980. These thrusters had
+been designed for trajectory adjustments but could also help maintain
+the spacecraft’s orientation.
+
+Using the trajectory correction maneuver thrusters gave the mission team
+another way to keep the antenna pointed toward Earth. This helped extend
+the expected useful life of the spacecraft.
+
+Additional thruster operations and revivals took place in later years.
+In September 2024, the team switched from a clogged set of thrusters to
+a less clogged set that had not been used since 2018.
+
+In May 2025, engineers revived backup thrusters used for roll control.
+These thrusters had not been usable since 2004.
+
+The thruster system is essential because the spacecraft must maintain a
+stable orientation for communication. At Voyager 1’s distance, even a
+small pointing error can make it difficult for the Deep Space Network to
+receive the signal.
+
+COMMUNICATION AND COMPUTER PROBLEMS
+
+Voyager 1 has experienced several communication and computer problems
+during its long mission.
+
+In May 2022, the spacecraft began sending unusual engineering telemetry.
+NASA determined that the Attitude and Articulation Control Subsystem was
+operating but was sending invalid information.
+
+The problem was traced to the AACS routing telemetry through a computer
+that had not been used for many years. Engineers sent commands to use a
+different computer, and the issue was resolved.
+
+A more serious problem began in November 2023, when Voyager 1 stopped
+sending usable scientific and engineering data. The spacecraft continued
+to receive commands and transmitted a carrier signal, indicating that it
+was still operating.
+
+The problem was associated with the Flight Data Subsystem. This computer
+collects and formats information before it is transmitted to Earth. A
+portion of its memory had become corrupted, preventing the system from
+preparing usable data.
+
+Engineers developed a workaround by moving code away from the damaged
+memory location. Voyager 1 has extremely limited memory, so the team had
+to divide the code into smaller pieces and place them in other available
+memory locations. Some unused code was deleted to make room.
+
+In April 2024, the team restored the transmission of engineering and
+health information. In May and June 2024, scientific data return was
+progressively restored, including data from all four instruments that
+were then operating.
+
+In October 2024, a fault-protection response caused the spacecraft to
+switch from its X-band transmitter to an S-band transmitter. Engineers
+later restored the X-band transmitter and normal data collection.
+
+The mission has also faced limitations in the Deep Space Network.
+Maintenance and upgrades to the network’s facilities can reduce the
+opportunities to communicate with very distant spacecraft. Such periods
+require careful scheduling because Voyager 1 and Voyager 2 are too far
+away for routine communication through ordinary radio equipment.
+
+The mission information supplied for November 2026 reports that Voyager
+1 stopped returning science and engineering data on November 14, 2026,
+while a carrier signal remained detectable. This suggests a possible
+issue with the onboard system that gathers and formats data for
+transmission. A carrier signal indicates that the spacecraft’s radio
+transmitter is active, but it does not by itself prove that usable
+scientific data are being returned.
+
+THE FUTURE OF VOYAGER 1
+
+Voyager 1 is expected to continue travelling through interstellar space
+long after it loses the ability to communicate with Earth.
+
+Its remaining lifetime as an operating spacecraft is limited by the
+declining power output of its RTGs and the ageing of its electronic and
+mechanical systems. Eventually, it will no longer have enough
+electricity to operate its scientific instruments or transmit data.
+
+Estimates have suggested that the spacecraft may be able to operate at
+least one scientific instrument into the late 2020s or 2030s. The exact
+date depends on the power available and the decisions made by the
+mission team.
+
+The Deep Space Network will also eventually be unable to communicate
+with the spacecraft. Even if Voyager 1 remains physically intact, it
+will become silent when it can no longer power its transmitter or when
+its signal becomes too weak for Earth-based antennas to detect.
+
+FAR FUTURE TRAJECTORY
+
+After its operational mission ends, Voyager 1 will continue moving
+through the Milky Way.
+
+It is expected to reach the inner region of the theorized Oort cloud in
+approximately 300 years. The Oort cloud is a distant, roughly spherical
+region thought to contain many icy bodies that may become long-period
+comets. The spacecraft could take tens of thousands of years to pass
+through this region.
+
+In approximately 40,000 years, Voyager 1 is expected to pass within about 1.6 light-years of the star Gliese 445. The spacecraft is not aimed directly at that star and will not enter its planetary system.
+In approximately 300,000 years, Voyager 1 is expected to pass within less than one light-year of another star, identified in the mission
+information as TYC 3135-52-1.
+
+Voyager 1 is not expected to collide with a star or planet. Space is extremely vast, and the probability of a direct collision is very small. The spacecraft is travelling faster than several other deep-space probes in terms of its speed away from the Sun. Its trajectory benefited from
+gravitational assists at Jupiter and Saturn. New Horizons, although launched at a high speed, received fewer planetary gravitational assists
+and is not expected to overtake Voyager 1.
+
+THE VOYAGER GOLDEN RECORD
+
+Voyager 1 and Voyager 2 each carry a gold-plated audio-visual disc known as the Voyager Golden Record.
+The record was created as a message from Earth to any intelligent life that might encounter the spacecraft in the distant future. It was
+assembled under the direction of a team that included astronomer and science communicator Carl Sagan and producer Timothy Ferris.
+The Golden Record contains images, scientific information, spoken greetings, music, and natural sounds. Its contents were selected to
+represent the diversity of life and culture on Earth. The record includes sounds such as whales, a baby crying, ocean waves, and other natural events. It also contains music from different cultures
+and historical periods, including works by classical composers and performances of folk and traditional music.
+Greetings in 55 languages are included. The spoken messages were intended to communicate that Earth is inhabited by a diverse range of
+people and that humanity has an interest in making contact and sharing knowledge.
+The record also contains scientific information intended to help a potential discoverer understand basic facts about Earth, the Solar
+System, and human biology. Its cover includes symbolic instructions intended to explain how the record should be played and how its contents
+can be interpreted.
+The Golden Record is not a practical communication system for the current mission. It is a symbolic message designed to survive for an
+extremely long time, even after the spacecraft has stopped transmitting data.
+
+SCIENTIFIC AND HISTORICAL SIGNIFICANCE
+
+Voyager 1 transformed scientific understanding of the outer Solar System. Its observations revealed active volcanoes on Io, detailed
+atmospheric structures on Jupiter and Saturn, complex features in Saturn’s rings, and new information about the moons of the giant
+planets. The mission demonstrated the value of using gravitational assists to explore multiple planetary systems. It also showed that a spacecraft
+designed for a relatively short planetary mission could continue returning valuable scientific information for decades.
+
+Its crossing of the heliopause was a historic milestone. For the first time, a human-made spacecraft directly investigated the interstellar
+medium from beyond the Sun’s heliosphere.Voyager 1’s long operational life is the result of careful engineering,
+conservative power management, and the work of generations of scientists and engineers. Many of the people who designed and launched the spacecraft are no longer involved in daily operations, but later teams
+have continued to maintain and operate the mission. The spacecraft also became an important cultural symbol. The Pale Blue Dot image and the Golden Record represent two different aspects of the
+mission: the scientific effort to understand the universe and the human desire to communicate beyond Earth.
+
+KEY DATES AND EVENTS
+
+1977-08-20: Voyager 2 launches. 1977-09-05: Voyager 1 launches at
+approximately 12:56 UTC. 1977-12-10: Voyager 1 enters the asteroid belt.
+1977-12-19: Voyager 1 overtakes Voyager 2. 1978-09-08: Voyager 1 exits
+the asteroid belt. 1979-01-06: Jupiter observation phase begins.
+1979-03-05: Voyager 1 makes its closest approach to Jupiter. 1979-04-13:
+Jupiter observation phase ends. 1980-08-22: Saturn observation phase
+begins. 1980-11-12: Voyager 1 encounters Saturn and makes its closest
+approach to Titan. 1980-11-14: Saturn encounter ends and the extended
+mission begins. 1990-02-14: Voyager 1 takes the Solar System Family
+Portrait, including the Pale Blue Dot image. 1998-02-17: Voyager 1
+overtakes Pioneer 10 as the most distant spacecraft from the Sun.
+2004-12-17: Voyager 1 crosses the termination shock and enters the
+heliosheath. 2007-02-01: Plasma spectrometer operations are terminated
+because of degraded performance. 2008-01-16: Planetary Radio Astronomy
+operations are terminated. 2010-12-13: Evidence indicates that the
+outward radial flow of solar wind has fallen to approximately zero.
+2011-03: Voyager 1 performs a major orientation maneuver to investigate
+solar-wind flow. 2011-12-01: Detection of Lyman-alpha radiation from the
+Milky Way is announced. 2011-12-05: NASA describes Voyager 1 as entering
+a stagnation region near the outer heliosphere. 2012-08-25: Voyager 1
+crosses the heliopause and enters interstellar space. 2013-04-09:
+Plasma-wave observations provide information used to estimate
+interstellar plasma density. 2013-09-12: NASA confirms that Voyager 1
+has entered the interstellar medium. 2016-04-19: Ultraviolet
+spectrometer operations are terminated. 2017-11-28: Trajectory
+correction maneuver thrusters are tested for the first time since 1980.
+2022-05: Voyager 1 begins returning unusual engineering telemetry.
+2022-08: Engineers correct the telemetry-routing problem. 2023-11-14:
+Voyager 1 begins transmitting unusable data because of a Flight Data
+Subsystem problem. 2024-04: Engineers restore usable engineering and
+health data by moving code away from a damaged memory location. 2024-05
+to 2024-06: Scientific data return is progressively restored. 2024-10: A
+fault-protection event causes a change in the spacecraft’s radio
+transmitter configuration. 2024-11: Normal X-band communication and
+science operations are restored. 2025-02-25: The Cosmic Ray System is
+switched off to conserve power. 2025-05: Backup roll thrusters are
+revived. 2026-04-17: The Low-Energy Charged Particle instrument is
+switched off to conserve power. 2026-11-18: The mission information
+states that Voyager 1 reaches a distance of one light-day from Earth.
+2026-11-14: The mission information also reports a loss of science and
+engineering data, with a carrier signal still being received.
+
+IMPORTANT TERMS
+
+Astronomical Unit (AU): The average distance between Earth and the Sun, approximately 150 million kilometres.
+
+Attitude control: The process of controlling the orientation of a spacecraft.
+
+Cosmic rays: High-energy particles travelling through space, many of which originate outside the Solar System.
+
+Deep Space Network (DSN): NASA’s worldwide system of large radio antennas used to communicate with distant spacecraft.
+
+Electron density: The number of free electrons in a given volume of plasma.
+
+Gravitational assist: A manoeuvre in which a spacecraft uses a planet’s gravity and orbital motion to change its trajectory and speed.
+
+Heliosphere: The region of space influenced by the solar wind and the Sun’s magnetic field.
+
+Heliosheath: The region between the termination shock and the heliopause.
+
+Heliopause: The outer boundary of the heliosphere, where the solar wind’s influence gives way to the interstellar medium.
+
+Interstellar medium: The gas, plasma, dust, energetic particles, and magnetic fields found between stars.
+
+Magnetosphere: The region around a planet in which its magnetic field strongly influences charged particles.
+
+Plasma: A state of matter consisting of charged particles, including ions and free electrons.
+
+Radioisotope Thermoelectric Generator (RTG): A power source that converts heat from radioactive decay into electricity.
+
+Solar wind: A continuous stream of charged particles flowing outward from the Sun.
+
+Termination shock: The boundary where the solar wind slows from supersonic to subsonic speeds.
+
+Trajectory correction maneuver (TCM): A small propulsion manoeuvre used to adjust a spacecraft’s trajectory or orientation.
+
+Voyager Golden Record: A gold-plated audio-visual disc carried by both Voyager spacecraft as a message representing Earth and humanity.
+
+CONCLUSION
+
+Voyager 1 began as a mission to explore Jupiter and Saturn. Its close encounters with the giant planets produced discoveries that changed
+planetary science, including the discovery of active volcanoes on Io and detailed observations of Saturn’s rings and Titan’s atmosphere.
+
+After completing its planetary mission, Voyager 1 continued outward through the heliosphere. It crossed the heliopause in August 2012 and
+became the first human-made spacecraft to enter interstellar space. Its instruments have provided direct measurements of the environment beyond
+the Sun’s influence.
+
+The spacecraft is now operating with severely limited electrical power and an ageing computer and communication system. Instruments have been
+turned off one by one, and engineers continue to use careful power management and creative troubleshooting to preserve the mission.
+
+Even after Voyager 1 stops communicating with Earth, it will continue travelling through the Milky Way. Its Golden Record will remain aboard
+as a durable message from Earth, carrying sounds, images, music, and greetings from humanity into deep space.

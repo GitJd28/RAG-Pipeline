@@ -11,10 +11,45 @@ from langchain_chroma import Chroma
 from dotenv import load_dotenv 
 
 
-load_dotenv()
+load_dotenv() 
+
+def load_documents(docs_path="docs"):
+    """load all the files""" 
+    print("Loading all the documents from {docs_path} .......")
+
+    #check if the files exist in the given directory. 
+    if not os.path.exists(docs_path) :
+        raise FileNotFoundError(f"The given directory {docs_path} is not found. Please insert files and try again.")
+  
+    #Load all the .txt files from the docs directory
+    loader= DirectoryLoader(
+        path = docs_path , 
+        glob= "*.txt", 
+        loader_cls= TextLoader   #we have got several classes to load certail types of inpouts like text , pdf or website etc. 
+    )
+
+    documents= loader.load()  #gives us a list of langchain documents. where it keeps the source and the metadata. 
+
+    if(len(documents)==0):
+        raise FileNotFoundError(f"No .txt files found in {docs_path} . Please upload the files. ")
+
+    for i , doc in enumerate(documents[ :3]) :
+        print(f"\n Document {i+1} : ")
+        print(f" Source:{doc.metadata['source']} ")
+        print(f" Content length: {len(doc.page_content)} characters ")
+        print(f" Content preview: {doc.page_content[:100]} ......")
+        print(f" Metadata: {doc.metadata}\n" )
+
+    return documents    
 
 def main():
-    print("\n\nMain func heyyy :) ")
+    print("\nMain func heyyy :) \n")
+
+    #Step 1. Load the file 
+    documents = load_documents(docs_path="docs")
+    #Step 2. Chunking the files 
+
+    #Setp 3. Embedding and storing in Vector DB
 
 
 if __name__ == "__main__" : 
