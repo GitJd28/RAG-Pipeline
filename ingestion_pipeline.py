@@ -13,9 +13,19 @@ from dotenv import load_dotenv
 
 load_dotenv() 
 
+
+import os
+
+load_dotenv()
+
+if os.getenv("OPENAI_API_KEY"):
+    print("OpenAI API key loaded successfully!")
+else:
+    print("API key not found!")
+
 def load_documents(docs_path="docs"):
     """load all the files""" 
-    print("\nLoading all the documents from {docs_path} .......")
+    print(f"\nLoading all the documents from {docs_path} .......")
 
     #check if the files exist in the given directory. 
     if not os.path.exists(docs_path) :
@@ -56,19 +66,45 @@ def split_documents(documents, chunk_size=900, chunk_overlap=0):
 
     chunks = text_splitter.split_documents(documents)
 
-    if chunks:
-        for i, chunk in enumerate(chunks[:6]):
-            print(f"\n--- Chunk {i+1} ---")
-            print(f"Source: {chunk.metadata['source']}")
-            print(f"Length: {len(chunk.page_content)} characters")
-            print("Content:")
-            print(chunk.page_content)
-            print("-" * 50)
+    # if chunks:
+    #     for i, chunk in enumerate(chunks[:6]):
+    #         print(f"\n--- Chunk {i+1} ---")
+    #         print(f"Source: {chunk.metadata['source']}")
+    #         print(f"Length: {len(chunk.page_content)} characters")
+    #         print("Content:")
+    #         print(chunk.page_content)
+    #         print("-" * 50)
 
-        if len(chunks) > 5:
-            print(f"\n... and {len(chunks) - 5} more chunks")
+    #     if len(chunks) > 5:
+    #         print(f"\n... and {len(chunks) - 5} more chunks")
 
     return chunks
+
+
+def create_vector_store(chunks , persist_directory="dt/chroma_db") :
+    """Create and persist ChromaDB vector store"""
+    print("Craeting embedidngs and storing in ChromaDB ")
+
+    embedding_model= OpenAIEmbeddings(model="text-embedding-3-small")
+
+    #create ChromaDB vector store. 
+    print("\n--- Creating vector store")
+
+    #In this step we convert the chunks into vector db using cosine similarity
+    vectorstore = Chroma.from_documents(
+        documents= chunks , 
+        embedding= embedding_model ,
+        persist_directory= persist_directory, 
+        collection_metadata={"hnsw:space" : "cosine"}
+    )
+    #Cosine similarity algorithm is used to compare the chunks derived and get the top quality chunks
+
+    print("\n--- Finished creating vector store ---")
+
+    print(f"Vector store created and saved to {persist_directory}")
+
+    return vectorstore
+
 
 def main():
     print("\nMain func heyyy :) \n")
@@ -78,6 +114,7 @@ def main():
     #Step 2. Chunking the files 
     chunks = split_documents(documents)
     #Setp 3. Embedding and storing in Vector DB
+    create_vector_store(chunks)
     
 
 
