@@ -8,15 +8,22 @@ from langchain_openai import OpenAIEmbeddings
 # the vector db will be now stoired in chrome DB 
 from langchain_chroma import Chroma 
 #load all the environment variables 
-from dotenv import load_dotenv 
+# from dotenv import load_dotenv 
+# load_dotenv() 
+
+from pathlib import Path
+from dotenv import load_dotenv
+
+env_path = Path(__file__).resolve().parent / ".env"
+
+loaded = load_dotenv(dotenv_path=env_path, override=True)
+
+print("Environment file found:", env_path.exists())
+print("Environment variables loaded:", loaded)
+print("API key available:", bool(os.getenv("OPENAI_API_KEY")))
 
 
-load_dotenv() 
-
-
-import os
-
-load_dotenv()
+#load_dotenv()
 
 if os.getenv("OPENAI_API_KEY"):
     print("OpenAI API key loaded successfully!")
